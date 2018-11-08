@@ -1,7 +1,8 @@
 package model
 
-type Rating struct{
-  UserID int
-  KitchenID int
-  Rate float64
+//Rating just a struct to store user rating, only used in GetRatingList
+type Rating struct {
+	UserID    int
+	KitchenID int
+	Rate      float64
 }
