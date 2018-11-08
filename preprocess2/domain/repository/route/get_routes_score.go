@@ -67,7 +67,7 @@ func getKitchenOptimality(routeList []model.Route) float64 {
 		optimality += kitchenOptimality
 	}
 
-	optimality = float64(len(kitchenList)) / optimality
+	optimality = optimality / float64(len(kitchenList))
 	return optimality
 }
 
